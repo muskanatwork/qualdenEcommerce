@@ -8,6 +8,12 @@
   width: 80%;
   background-color: rgb(220, 220, 193);
 }
+.productCartContainer p{
+  margin: 20px;
+}
+.productCartContainer h1{
+  text-align: center;
+}
 .ProductCardDiv {
   border: 1px solid #ccc;
   background-color: rgb(253, 253, 245);
@@ -45,4 +51,95 @@
   background-color: green;
   width: 10%;
 }
+/* Footer styling in the Home page */
+footer {
+  width: 100%;
+  background-color: rgb(5, 79, 5);
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap; /* Ensure flex items wrap to the next line on smaller screens */
+  justify-content: center; /* Center align items horizontally */
+  gap: 25px;
+}
 
+.footer-section {
+  flex: 1; /* Take up equal space */
+  max-width: 300px; /* Limit maximum width of each section */
+  margin-bottom: 20px; /* Add some spacing between sections */
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  color: rgb(178, 173, 173);
+  font-weight: bold;
+}
+
+.footer-section ul {
+  padding: 0;
+  color: #fff;
+}
+
+.footer-section ul li {
+  margin-bottom: 15px;
+}
+
+.footer-section ul li a {
+  color: rgb(178, 173, 173);
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-box1 {
+  display: flex;
+  flex-direction: column; /* Display child sections vertically */
+  gap: 20px; /* Add spacing between child sections */
+}
+
+.section1,
+.section2 {
+  width: 100%; /* Make child sections take up full width */
+}
+
+.img-div {
+  display: flex;
+  justify-content: center; /* Center align images horizontally */
+  gap: 20px; /* Add spacing between images */
+}
+
+.img-div div {
+  border: 5px solid black;
+  flex: 1; /* Take up equal space */
+  max-width: 180px; /* Limit maximum width of each image container */
+  height: 180px;
+}
+
+.img-div img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 15px; /* Reduce padding */
+  }
+
+  .footer-section {
+    max-width: none; /* Remove maximum width restriction */
+  }
+
+  .footer-box1 {
+    flex-direction: row; /* Display child sections horizontally */
+  }
+
+  .img-div {
+    flex-direction: column; /* Display images vertically on smaller screens */
+  }
+
+  .img-div div {
+    max-width: none; /* Remove maximum width restriction */
+  }
+}
