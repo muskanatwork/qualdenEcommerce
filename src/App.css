@@ -1,6 +1,54 @@
 *{
   margin: 0;
 }
+/* Carousel styling in the home page */
+.carousel {
+  width: 100%; 
+  margin: 0 auto; 
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; 
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 1; 
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.carousel-button:first-child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px; 
+}
+
+.carousel-button:last-child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px; 
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%; 
+  transition: transform 0.5s ease;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 500px;
+}
+
+
+
 /* Product cart styling in home page */
 .productCartContainer{
   display: flex;
@@ -20,7 +68,7 @@
   border-radius: 8px;
   padding: 8px;
   margin: 8px;
-  width: 200px; /* Adjust the width as needed */
+  width: 200px; 
 }
 
 .ProductCardDiv div{
@@ -57,15 +105,15 @@ footer {
   background-color: rgb(5, 79, 5);
   padding: 30px;
   display: flex;
-  flex-wrap: wrap; /* Ensure flex items wrap to the next line on smaller screens */
-  justify-content: center; /* Center align items horizontally */
+  flex-wrap: wrap; 
+  justify-content: center; 
   gap: 25px;
 }
 
 .footer-section {
-  flex: 1; /* Take up equal space */
-  max-width: 300px; /* Limit maximum width of each section */
-  margin-bottom: 20px; /* Add some spacing between sections */
+  flex: 1; 
+  max-width: 300px; 
+  margin-bottom: 20px; 
 }
 
 .footer-section h3 {
@@ -124,22 +172,22 @@ footer {
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   footer {
-    padding: 15px; /* Reduce padding */
+    padding: 15px; 
   }
 
   .footer-section {
-    max-width: none; /* Remove maximum width restriction */
+    max-width: none; 
   }
 
   .footer-box1 {
-    flex-direction: row; /* Display child sections horizontally */
+    flex-direction: row; 
   }
 
   .img-div {
-    flex-direction: column; /* Display images vertically on smaller screens */
+    flex-direction: column; 
   }
 
   .img-div div {
-    max-width: none; /* Remove maximum width restriction */
+    max-width: none;
   }
 }

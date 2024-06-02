@@ -1,3 +1,4 @@
+import Carousel from "./Carousel"
 import Footer from "./Footer"
 import ProduntCard from "./ProductCard"
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
             <div className="container">
                 <div className="box1"></div>
                 <div className="productCartContainer">
+                    <Carousel/>
                     <h1>WELCOME TO OUR WEBSITE</h1>
                     <p>Sensor Mart is one of the prestigious organizations
                         from Roorkee (Uttarakhand) that are active in the
