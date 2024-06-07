@@ -28,7 +28,6 @@ const Carousel = () => {
             </div>
             <button className="carousel-button" onClick={goToNextSlide}>
                 &gt;
-
             </button>
         </div>
     );
