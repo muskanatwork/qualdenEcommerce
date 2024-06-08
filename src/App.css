@@ -503,8 +503,8 @@ td {
   display: flex;
   justify-content: end;
   width: 100%;
-  background-color: green;
-  /* Background color of the footer navigation */
+  /* background-color: green; */
+  background: url('../src/assets/Images/large-triangles\ \(1\).svg');
   padding: 20px;
 }
 
@@ -547,7 +547,7 @@ td {
 .horiLine {
   width: 100%;
   padding-bottom: 20px;
-  background-color: green;
+  background: url('../src/assets/Images/large-triangles\ \(1\).svg');
 }
 
 .horiLine div {
@@ -555,7 +555,8 @@ td {
 }
 
 .footer-content {
-  background-color: green;
+  /* background-color: green; */
+  background: url('../src/assets/Images/large-triangles\ \(1\).svg');
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -736,59 +737,32 @@ button[type="submit"]:last-of-type:hover {
 
 /* breadcrumb styling */
 
-.breadcrumb {
-  margin-top: 4%;
+
+.breadcrumbs{
+  background-color: rgb(212, 157, 6);
   width: 100%;
-  background-color: rgba(255, 255, 0, 0.483);
   padding: 20px;
   display: flex;
   justify-content: space-between;
 }
 
-.breadcrumb-list {
-  display: flex;
-  gap: 30px;
+.breadcrumbs h2{
+  color: #fff;
 }
 
-.breadcrumb a {
-  text-decoration: none;
+.link{
+  color: #fff;
 }
 
-/* styles.css */
-
-.breadcrumbs {
-  padding: 10px 0;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+.breadcrumbs a{
+text-decoration: none;
 }
-
-.breadcrumbs a {
-  color: #007bff;
-  text-decoration: none;
-  margin: 0 5px;
-}
-
-.breadcrumbs a:hover {
-  text-decoration: underline;
-}
-
-.breadcrumbs span {
-  display: flex;
-  align-items: center;
-}
-
 .breadcrumbs span::before {
   content: '>';
   margin: 0 5px;
-  color: #6c757d;
+  color: white;
 }
 
-.breadcrumbs span:first-child::before {
-  content: '';
-  margin: 0;
-}
 
 
 

@@ -13,7 +13,14 @@ const AboutUs = () => {
                 <div className="box1"></div>
                 <div className="box2">
                     <NavInfo />
-                    {/* <Breadcrumbs /> */}
+                    <div className='breadcrumbs'>
+                        <div>
+                            <h2>About US</h2>
+                        </div>
+                        <div>
+                            <Breadcrumbs />
+                        </div>
+                    </div>
                     <div className="aboutusContentDiv">
                         <div className="aboutusContent">
                             <div className="paragraph">
