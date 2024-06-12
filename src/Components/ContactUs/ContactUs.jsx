@@ -13,7 +13,7 @@ const ContactUs = () => {
                 <Nav />
                 <div className="box1"></div>
                 <div className="box2">
-                    <NavInfo />
+                <NavInfo />
                     <div className='breadcrumbs'>
                         <div><h2>Contact Us</h2></div>
                         <div><Breadcrumbs /></div>

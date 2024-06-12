@@ -2,7 +2,6 @@
   margin: 0;
 }
 
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -133,9 +132,6 @@ nav ul li a:hover {
 
 }
 
-
-
-
 .carousel-button:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -251,20 +247,6 @@ nav ul li a:hover {
   text-align: justify;
 }
 
-/* Paragraph stuling in the aboutus page*/
-
-.paragraph {
-  width: 840px;
-}
-
-.paragraph p {
-  margin-bottom: 20px;
-  text-align: justify;
-}
-
-.aboutusContent {
-  padding: 30px;
-}
 
 /* SideBar styling in home page */
 .container {
@@ -351,12 +333,6 @@ footer {
   width: 100%;
 }
 
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  footer {
-    display: none;
-  }
-}
 
 /* form  */
 
@@ -426,13 +402,28 @@ button[type="submit"]:hover {
 
 .container1 {
   display: flex;
-  /* margin-top: 5%; */
 }
 
+/* about us css */
 .container2 {
   display: flex;
 }
 
+/* Paragraph stuling in the aboutus page*/
+
+.paragraph {
+  width: 840px;
+}
+
+.paragraph p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.aboutusContent {
+  padding: 30px;
+}
+ /* Table styling  */
 .cell1 {
   width: 350px;
   text-align: end;
@@ -450,118 +441,6 @@ td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
-}
-
-/* Contact Table styling */
-
-.table-container table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.table-container table tr {
-  border-bottom: 1px solid #000;
-  /* You can change the color and thickness as needed */
-}
-
-.table-container table td {
-  padding: 8px;
-  text-align: center;
-}
-
-/* Contact Table Styling */
-
-
-
-/* nav info */
-.Nav-info {
-  background-color: #28a745;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin-top: 50px;
-  color: #fff;
-}
-
-.info-heading {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  gap: 30px;
-  padding: 10px;
-  width: 100%;
-}
-
-.info-button {
-  padding: 6px;
-  border-radius: 25px;
-  border: none;
-}
-
-
-.footer-nav {
-  display: flex;
-  justify-content: end;
-  width: 100%;
-  /* background-color: green; */
-  background: url('../src/assets/Images/large-triangles\ \(1\).svg');
-  padding: 20px;
-}
-
-.footer-nav ul {
-  list-style-type: none;
-  /* Remove default list styles */
-  padding: 0;
-  /* Remove default padding */
-  margin: 0;
-  /* Remove default margin */
-  text-align: center;
-  /* Center align the list items */
-}
-
-.footer-nav ul li {
-  display: inline;
-  /* Display list items inline */
-  margin-right: 20px;
-  /* Add space between list items */
-}
-
-.footer-nav ul li:last-child {
-  margin-right: 0;
-  /* Remove margin from the last list item */
-}
-
-.footer-nav ul li a {
-  color: #fff;
-  /* Text color of the links */
-  text-decoration: none;
-  /* Remove underline from links */
-  font-size: 16px;
-  /* Font size of the links */
-}
-
-.footer-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-.horiLine {
-  width: 100%;
-  padding-bottom: 20px;
-  background: url('../src/assets/Images/large-triangles\ \(1\).svg');
-}
-
-.horiLine div {
-  border-bottom: 1px dotted #fff;
-}
-
-.footer-content {
-  /* background-color: green; */
-  background: url('../src/assets/Images/large-triangles\ \(1\).svg');
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 12px;
-  color: #fff;
 }
 
 /* Accodian design in the about us page */
@@ -594,6 +473,104 @@ td {
 .aboutusContentDiv {
   display: flex;
 }
+
+
+/* Contact Table styling */
+
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-container table tr {
+  border-bottom: 1px solid #000;
+}
+
+.table-container table td {
+  padding: 8px;
+  text-align: center;
+}
+
+/* nav info */
+.Nav-info {
+  background-color: #28a745;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.info-heading {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.info-button {
+  padding: 6px;
+  border-radius: 25px;
+  border: none;
+}
+
+
+.footer-nav {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  background: url('../src/assets/Images/large-triangles\ \(2\).svg');
+  padding: 20px;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-nav ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.horiLine {
+  width: 100%;
+  padding-bottom: 20px;
+  background: url('../src/assets/Images/large-triangles\ \(2\).svg');
+}
+
+.horiLine div {
+  border-bottom: 1px dotted #fff;
+}
+
+.footer-content {
+  /* background-color: green; */
+  background: url('../src/assets/Images/large-triangles\ \(2\).svg');
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  color: #fff;
+}
+
 
 /* ContactUs styling in the aboutus page */
 
@@ -722,7 +699,6 @@ button[type="submit"]:last-of-type:hover {
   margin-right: -150px; /* Yahan aap apni pasand ke anusaar spacing set kar sakte hain */
 }
 
-/* Aakhri button ko margin-right nahi diya jayega */
 .btn > *:last-child {
   margin-right: 0;
 }
@@ -739,7 +715,7 @@ button[type="submit"]:last-of-type:hover {
 
 
 .breadcrumbs{
-  background-color: rgb(212, 157, 6);
+  background: url('../src/assets/Images/repeating-triangles.svg');
   width: 100%;
   padding: 20px;
   display: flex;
